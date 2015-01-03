@@ -1,5 +1,12 @@
 code-learning
 =============
+# 2015-01-03 12:03pm
+终于玩转了 github 的 gh-page 页面,更新 [make a website](http://sunnist.github.io/code-learning/make-website/demo.html) 练习页面的地址
+
+晚上这几个小时的学习，感觉多用英文谷歌，用 stackoverflow，多看文档解决问题的能力 up up
+
+另外网速慢的话确实让人非常影响写代码心情，当然可能是我个人太躁了（ ＴДＴ）
+
 # 2015-01-01 12:33am
 刚刚发现push的代码里面布局有点问题（本来是没问题的，没注意到push的是旧代码）
 
