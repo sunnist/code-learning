@@ -1,6 +1,6 @@
 code-learning
 =============
-# 2015-01-03 12:03pm
+# 2015-01-03 12:03am
 终于玩转了 github 的 gh-page 页面,更新 [make a website](http://sunnist.github.io/code-learning/make-website/demo.html) 练习页面的地址
 
 晚上这几个小时的学习，感觉多用英文谷歌，用 stackoverflow，多看文档解决问题的能力 up up
