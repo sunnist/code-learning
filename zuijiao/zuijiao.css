@@ -1,0 +1,162 @@
+.nav {
+	width: 100%;
+	height: 50px;
+	background-color: rgba(255,255,255,0.7);
+	position: fixed;
+}
+
+.nav .contaniner{
+	width: 1000px;
+	height: 30px;
+	margin: auto;
+
+}
+
+.banner {
+	background-image:url('http://ww3.sinaimg.cn/large/82a9ab14jw1eqm841kptvj20ue0ka79l.jpg'); 
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-color: #f9f0f1;
+	height: 500px;
+	width: 100%;
+	margin: auto;
+}
+
+.cuisine {
+	width: 910px;
+	margin: auto;
+	margin-top: 62px;
+}
+
+.cuisine .cuisine-img{
+	background-image:url('http://ww3.sinaimg.cn/large/82a9ab14jw1eqm84zh4coj20ue0kawl6.jpg'); 
+	background-size: cover;
+	width: 600px;
+	height: 300px;
+	margin-right: 30px;
+	float: left;
+}
+
+.cuisine .cuisine-brief {
+	width: 280px;
+	height: 300px;
+	overflow: auto;
+}
+
+.chef-avatar img {
+	width: 72px;
+	height: 72px;
+	border-radius:50%;
+	overflow: auto;
+	margin-bottom: 10px;
+}
+
+.cuisine-detail {
+	background-color: #f9f0f1;
+	width: 910px;
+	margin: auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.cuisine-detail .cuisine-description {
+	text-align:center;
+	width: 540px;
+	margin: auto;
+	padding-top: 70px;
+}
+
+.cuisine-detail .chef-description {
+	text-align:center;
+	width: 540px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.cuisine-detail .menu {
+	text-align:center;
+	width: 540px;
+	margin: auto;
+	padding-top: 50px;
+}
+.cuisine-detail .cuisine-img {
+	text-align:center;
+	width: 730px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.cuisine-detail .cuisine-img img {
+	width: 350px;
+	height: 350px;
+	padding: 10px;
+}
+
+.cuisine-detail .more {
+	width: 320px;
+	height: 30px;
+	margin: auto;
+}
+
+.cuisine-detail .more button {
+	width: 100px;
+	height: 30px;
+	margin-right: 28px;
+	margin-left: 28px;
+
+}
+
+.footer{
+ 	background-image: url(http://ww1.sinaimg.cn/large/82a9ab14jw1eqgm96eqq7j2074074dfv.jpg);
+    height: 256px;
+    width: 100%;
+}
+
+.footer .footer-inform{
+	width: 910px;
+	margin: auto;
+	padding-top: 80px;
+	text-align: center;
+	color: #fff;
+}
+
+a:link {color: #fff}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
