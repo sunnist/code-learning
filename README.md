@@ -1,5 +1,9 @@
 code-learning
 =============
+# 2013-03-29 14：41pm
+更新[zuijiao](http://sunnist.github.io/code-learning/zuijiao/zuijiao.html)
+简化了妹子的设计稿，做一个纯页面
+
 # 2015-01-03 12:03am
 终于玩转了 github 的 gh-page 页面,更新 [make a website](http://sunnist.github.io/code-learning/make-website/demo.html) 练习页面的地址
 
