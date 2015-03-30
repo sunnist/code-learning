@@ -1,6 +1,8 @@
 code-learning
 =============
-# 2013-03-29 14：41pm
+# 2015-03-30 5:59pm
+更新[个人中心|嘴角](http://sunnist.github.io/code-learning/zuijiao/profile.html)，导航部分没有处理
+# 2015-03-29 14:41pm
 更新[zuijiao](http://sunnist.github.io/code-learning/zuijiao/zuijiao.html)
 简化了妹子的设计稿，做一个纯页面
 
