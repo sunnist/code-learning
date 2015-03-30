@@ -2,13 +2,19 @@
 	width: 100%;
 	height: 50px;
 	background-color: rgba(255,255,255,0.7);
-	position: fixed;
+	/*position: fixed;*/
 }
 
 .nav .contaniner{
 	width: 1000px;
 	height: 30px;
 	margin: auto;
+
+}
+
+.nav .contaniner .logo {
+	width: 30px;
+	height: 40px;
 
 }
 
@@ -110,13 +116,13 @@
 
 }
 
-.footer{
- 	background-image: url(http://ww1.sinaimg.cn/large/82a9ab14jw1eqgm96eqq7j2074074dfv.jpg);
+.footer {
+ 	background-image: url('http://ww1.sinaimg.cn/large/82a9ab14jw1eqgm96eqq7j2074074dfv.jpg');
     height: 256px;
     width: 100%;
 }
 
-.footer .footer-inform{
+.footer .footer-inform {
 	width: 910px;
 	margin: auto;
 	padding-top: 80px;
@@ -124,7 +130,78 @@
 	color: #fff;
 }
 
-a:link {color: #fff}  
+/* a:link {color: #fff} */ 
+
+/*下面是个人中心的css*/ 
+
+.nav-sc {
+	width: 100%;
+	height: 40px;
+	background-color: #565a5c;
+
+}
+
+.nav-container {
+	width: 910px;
+	margin: auto;
+}
+
+.subnav-list{
+	width: 200px;
+	height: 20px;
+	margin-right:10px;
+}
+
+.reminder{
+	width: 910px;
+	height: 50px;
+	background-color: #f8f0f0;
+	margin: auto;
+	margin-top: 20px;
+	padding: 20px;
+	text-align: center;
+}
+
+.orders{
+	width: 910px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.order-info {
+	width: 290px;
+	border-style: solid;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: #bebec2;
+
+}
+
+.order-info p{
+	line-height: 12px;
+}
+
+.order-important {
+	width: 270px;
+    border-bottom: 1px #bebec2 dashed;
+    padding-top: 10px;
+    margin: auto;
+}
+
+.order-important p {
+	color: #955251;
+	font-weight: bold;
+
+}
+
+.order-minor {
+	padding-top: 10px;
+	width: 270px;
+    margin: auto;
+
+}
+
+
 
 
 
