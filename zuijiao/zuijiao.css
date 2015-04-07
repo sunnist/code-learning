@@ -182,7 +182,7 @@
 }
 
 .order-important {
-	width: 270px;
+	width: 250px;
     border-bottom: 1px #bebec2 dashed;
     padding-top: 10px;
     margin: auto;
@@ -196,8 +196,9 @@
 
 .order-minor {
 	padding-top: 10px;
-	width: 270px;
+	width: 250px;
     margin: auto;
+    padding-bottom: 20px;
 
 }
 
