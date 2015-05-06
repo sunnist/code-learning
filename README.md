@@ -1,5 +1,11 @@
 code-learning
 =============
+# 2015-05-07 12:00am
+更新[自适应布局练习](http://sunnist.github.io/code-learning/zuijiao/responsive.html
+)
+
+预计是练习三种写法的，目前只完成了「绝对定位」「margin 负值」的方法。感觉有点智商捉急了，对照例子也写了很久。还是在于不熟练，另外这种练习不能只模仿形，更重要是理解原理。
+
 # 2015-04-07 3:18pm
 更新[料理人个人展示|嘴角](http://sunnist.github.io/code-learning/zuijiao/host-display.html)
 # 2015-04-07 2:08pm
