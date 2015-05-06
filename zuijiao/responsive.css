@@ -1,0 +1,83 @@
+body{
+	margin: 0;
+}
+
+h1,h4{
+	margin: auto;
+	text-align: center;
+}
+
+.container{
+	width: 100%;
+	height: 400px;
+	margin-bottom: 40px;
+}
+
+/*绝对定位方法 css*/
+#absolute{
+	background-color: #fff;
+	height: 400px;
+	line-height:400px;
+	overflow:hidden;
+}
+
+#absolute-main{
+	margin: 0 110px;
+	background-color: #DFF0D8;
+	height: 400px;
+}
+
+#absolute-left,#absolute-right{
+	position: absolute;
+	top: 0;
+	width: 100px;
+	height: 400px;
+	background-color:#a0b3d6;
+}
+
+#absolute-left{
+	left: 0;
+}
+
+#absolute-right{
+	right: 0;
+}
+
+/*margin 负值方法 css*/
+/* 需要注意 div 顺序 */
+#negative-margin{
+	background-color: #fff;
+	height: 400px;
+	line-height:400px;
+	overflow:hidden;
+}
+
+#negative-margin-main{
+	width: 100%;
+	height: 400px;
+	float: left;
+}
+
+#negative-margin-main #main-body{
+	margin: 0 110px;
+	height: 400px;
+}
+
+ #main-body{
+	background-color: #F2DEDE;
+}
+
+#negative-margin-left,#negative-margin-right{
+	width: 100px;
+	height: 400px;
+	float: left;
+	background-color:#a0b3d6;
+}
+
+#negative-margin-left{
+	margin-left: -100%;
+}
+
+#negative-margin-right{
+	margin-left: -100px;
+}
