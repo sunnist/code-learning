@@ -1,5 +1,11 @@
 code-learning
 =============
+#2015-05-20 11：14pm
+
+更新[首页 UI](http://sunnist.github.io/code-learning/zuijiao0.2/index.html)
+
+因为设计了新的首页，就顺手感受一下布局，写一下页面原型
+
 # 2015-05-07 12:00am
 更新[自适应布局练习](http://sunnist.github.io/code-learning/zuijiao/responsive.html
 )
