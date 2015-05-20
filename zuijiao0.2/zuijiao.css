@@ -29,6 +29,8 @@ body{
 	height: 490px;
 	background-color: #fff;
 	margin:10px;
+	display: inline-block;
+	float: left;
 }
 
 .feast-img-cover{
@@ -37,26 +39,62 @@ body{
 	background-image:url('https://dn-img-seriousapps.qbox.me/business/14149316513474?imageView2/1/w/639/h/420/interlace/1/format/webp');
 }
 
+.home-feast-front-header{
+	margin: 10px 10px;
+}
+
 .circular-image{
+	display: inline-block;
 	width: 50px;
 	height: 50px;
 	border-radius: 50px;
-	margin:10px;
+	margin-right:10px;
+	float: left;
+}
+
+.home-feast-front-feastintro{
+	display: inline-block;
 }
 
 .home-feast-front-feastName{
+	margin-top: 0px;
+	margin-bottom: 6px;
 	font-size: 16px;
 	font-weight: bold; 
 	color: #212121;
 }
 
 .home-feast-front-feastLocation{
+	margin-top: 0px;
+	margin-bottom: 6px;
 	font-size: 14px;
 	color: #757575;
+
 }
 
 .home-feast-front-intro{
+	margin: 10px 10px;
 	font-size: 14px;
 	color: #757575;
 }
 
+.home-feast-front-meta{
+	margin: 0px 10px;
+}
+
+.home-feast-front-reserTip{
+	display: inline-block;
+	font-size: 14px;
+	color:#883a36;
+	margin:0;
+	float: left;
+}
+
+.home-feast-front-timeprice{
+	display: inline-block;
+	font-size: 14px;
+	color: #883a36;
+	margin:0;
+	float: right;
+
+}
