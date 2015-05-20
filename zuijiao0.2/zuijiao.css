@@ -7,6 +7,7 @@ body{
 	height: 58px;
 	background-color: #fff;
 	border-bottom: 1px #e0e0e0 solid;
+	opacity: 0.6;
 }
 
 .container {
@@ -18,7 +19,8 @@ body{
 .home-feast-list{
 	width: 1000px;
 	height: 100%;
-	margin-top: 20px;
+	margin-bottom: 20px;
+	display:inline-block;
 }
 
 .feast-theme{
@@ -94,4 +96,20 @@ body{
 	margin:0;
 	float: right;
 
+}
+
+.more{
+	margin: 10px auto;
+	width: 980px;
+
+}
+
+.btn{
+	height: 50px;
+  	border: 1px #883a36 solid;
+  	line-height: 50px;
+  	display: block;
+ 	background: #fafafa;
+ 	color: #883a36;
+ 	text-align: center;
 }
