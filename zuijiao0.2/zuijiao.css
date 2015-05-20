@@ -1,0 +1,62 @@
+body{
+	background-color: #fafafa;
+	margin: 0;
+}
+
+.nav{
+	width: 100%;
+	height: 58px;
+	background-color: #fff;
+	border-style:solid;
+	border-color:#e0e0e0;
+	border-width:1px;
+}
+
+.container {
+	width: 1000px;
+  	margin-right: auto;
+  	margin-left: auto;
+  }
+
+.home-feast-list{
+	width: 1000px;
+	height: 100%;
+	margin-top: 20px;
+}
+
+.feast-theme{
+	width: 480px;
+	height: 490px;
+	background-color: #fff;
+	margin:10px;
+}
+
+.feast-img-cover{
+	width: 480px;
+	height: 300px;
+	background-image:url('https://dn-img-seriousapps.qbox.me/business/14149316513474?imageView2/1/w/639/h/420/interlace/1/format/webp');
+}
+
+.circular-image{
+	width: 50px;
+	height: 50px;
+	border-radius: 50px;
+	margin:10px;
+}
+
+.home-feast-front-feastName{
+	font-size: 16px;
+	font-weight: bold; 
+	color: #212121;
+}
+
+.home-feast-front-feastLocation{
+	font-size: 14px;
+	color: #757575;
+}
+
+.home-feast-front-intro{
+	font-size: 14px;
+	color: #757575;
+}
+
