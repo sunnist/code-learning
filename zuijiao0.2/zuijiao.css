@@ -70,7 +70,6 @@ body{
 
 .home-feast-front-brief{
 	display: inline-block;
-	margin-top: 10px;
 }
 
 .home-feast-front-feastName{
@@ -137,15 +136,68 @@ body{
 }
 
 
-.home-feast-front-feastName a:hover 
-{ 
-font-size:16px; 
-font-weight:bold; 
-color:#fff; 
-text-decoration:underline; 
-} 
+/*详细页面 css*/
 
+.feast-reservation{
+	width: 940px;
+	height:75px;
+	background-color: #fff;
+}
 
+.home-feast-detail {
+	width: 940px;
+	height: 1200px;
+	background-color: #fff;
+	margin-top: 20px;
+}
+
+h1{
+	text-align: center;
+	padding: 40px;
+}
+
+p{
+	margin-top: 9px;
+	font-size: 18px;
+	font-weight: bold;
+
+}
+
+.detail-title{
+	position: relative;
+	height: 40px;
+
+}
+
+.title-name{
+	position: absolute;
+	line-height: 14px;
+	right: 390px;
+	width: 160px;
+	background-color: #fff;
+	z-index: 10;
+	text-align: center;
+	padding-top: 12px;
+}
+
+.divider{
+	position: absolute;
+	top: 20px;
+	width: 840px;
+	border-top: 1px solid rgba(0,0,0,.1);
+	margin-right: 50px;
+	margin-left: 50px;
+	
+}
+
+.home-feast-detail-host p{
+	font-size: 14px;
+	line-height: 2;
+	width: 600px;
+	text-align: center;
+	margin: auto;
+
+}
 
 
 
