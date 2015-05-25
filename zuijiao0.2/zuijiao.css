@@ -52,7 +52,7 @@ body{
 }
 
 .home-feast-front-header{
-	margin: 10px 10px;
+	margin: 10px 8px;
 }
 
 .circular-image{
@@ -68,6 +68,11 @@ body{
 	display: inline-block;
 }
 
+.home-feast-front-brief{
+	display: inline-block;
+	margin-top: 10px;
+}
+
 .home-feast-front-feastName{
 	margin-top: 0px;
 	margin-bottom: 6px;
@@ -80,18 +85,22 @@ body{
 	margin-top: 0px;
 	margin-bottom: 6px;
 	font-size: 14px;
+	font-weight: bold; 
 	color: #757575;
 
 }
 
 .home-feast-front-intro{
-	margin: 10px 10px;
+	margin: 0px 10px;
 	font-size: 14px;
 	color: #757575;
+	display: inline-block;
+	line-height: 1.480;
 }
 
 .home-feast-front-meta{
-	margin: 0px 10px;
+	margin: 10px 10px;
+
 }
 
 .home-feast-front-reserTip{
@@ -126,3 +135,40 @@ body{
  	color: #883a36;
  	text-align: center;
 }
+
+
+.home-feast-front-feastName a:hover 
+{ 
+font-size:16px; 
+font-weight:bold; 
+color:#fff; 
+text-decoration:underline; 
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
