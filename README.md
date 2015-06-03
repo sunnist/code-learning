@@ -1,6 +1,6 @@
 code-learning
 =============
-#2015-06-03 11：25pm
+#2015-06-03 11:25pm
 
 更新[首页 UI](http://sunnist.github.io/code-learning/zuijiao0.2/index.html)
 
@@ -10,7 +10,7 @@ code-learning
 
 更新[家庭料理详细页面框架](http://sunnist.github.io/code-learning/zuijiao0.2/feast-detail.html)
 
-#2015-05-20 11：14pm
+#2015-05-20 11:14pm
 
 更新[首页 UI](http://sunnist.github.io/code-learning/zuijiao0.2/index.html)
 
