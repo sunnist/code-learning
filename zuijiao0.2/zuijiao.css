@@ -26,7 +26,7 @@ body{
 .feast-theme{
 	position: relative;
 	width: 480px;
-	height: 470px;
+	height: 490px;
 	background-color: #fff;
 	margin:10px;
 	display: inline-block;
@@ -52,7 +52,7 @@ body{
 }
 
 .home-feast-front-header{
-	margin: 10px 8px;
+	margin: 10px 20px 0px 20px;
 }
 
 .circular-image{
@@ -62,6 +62,8 @@ body{
 	border-radius: 50px;
 	margin-right:10px;
 	float: left;
+	margin-top: -26px;
+	border: solid #fff 2px;
 }
 
 .home-feast-front-feastintro{
@@ -70,48 +72,29 @@ body{
 
 .home-feast-front-brief{
 	display: inline-block;
+	width: 440px;
+	margin-top: 8px;
+	margin-bottom: 8px;
 }
 
 .home-feast-front-feastName{
-	margin-top: 0px;
-	margin-bottom: 6px;
-	font-size: 16px;
+	margin: 0px;
+	font-size: 18px;
 	font-weight: bold; 
 	color: #212121;
-}
-
-.home-feast-front-feastLocation{
-	margin-top: 0px;
-	margin-bottom: 6px;
-	font-size: 14px;
-	font-weight: bold; 
-	color: #757575;
-
-}
-
-.home-feast-front-intro{
-	margin: 0px 10px;
-	font-size: 14px;
-	color: #757575;
-	display: inline-block;
-	line-height: 1.480;
-}
-
-.home-feast-front-meta{
-	margin: 10px 10px;
-
-}
-
-.home-feast-front-reserTip{
-	display: inline-block;
-	font-size: 14px;
-	color:#883a36;
-	margin:0;
 	float: left;
 }
 
 .home-feast-front-timeprice{
-	display: inline-block;
+	margin: 0px;
+	font-size: 14px;
+	font-weight: bold; 
+	color: #883a36;
+	float: left;
+
+}
+
+.home-feast-front-feastLocation{
 	font-size: 14px;
 	color: #883a36;
 	margin:0;
@@ -119,9 +102,59 @@ body{
 
 }
 
+.home-feast-front-intro{
+	margin: 0px 20px;
+	font-size: 14px;
+	color: #757575;
+	display: inline-block;
+	line-height: 1.480;
+}
+
+.home-feast-front-meta{
+	margin: 8px 20px;
+	display: inline-block;
+
+}
+
+.home-feast-front-reserTip{
+	display: inline-block;
+	font-size: 14px;
+	color:#212121;
+	margin:0;
+	float: left;
+}
+
+.home-feast-front-resermanlist{
+	display: inline-block;
+	position: relative;
+
+}
+
+.home-feast-front-reserman{
+	margin: 0 20px;
+}
+
+.home-feast-front-reserman .avatar{
+	width: 20px;
+	height: 20px;
+	margin-right: 10px;
+}
+
+.forward{
+	width: 16px;
+	height: 16px;
+	margin: 2px 0;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
+
 .more{
-	margin: 10px auto;
+	margin: 10px;
 	width: 980px;
+	display: inline-block;
 
 }
 
