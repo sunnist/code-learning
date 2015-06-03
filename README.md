@@ -1,5 +1,10 @@
 code-learning
 =============
+#2015-06-03 11：25pm
+
+更新[首页 UI](http://sunnist.github.io/code-learning/zuijiao0.2/index.html)
+
+根据新的稿子修改了样式，只是想偷懒不ps标尺寸，但不同平台显示差异非常大。。。。然并卵的样子。。。
 
 # 2015-05-26 12:38am
 
