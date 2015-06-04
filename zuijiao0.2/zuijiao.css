@@ -174,15 +174,25 @@ body{
 
 /*详细页面 css*/
 
+.cuisine{
+	margin:0 30px;
+}
+
+.slick-slide{
+	width: 940px;
+	height: 580px;
+}
+
 .feast-reservation{
 	width: 940px;
-	height:75px;
+	height:74px;
 	background-color: #fff;
+	position: relative;
 }
 
 .home-feast-detail {
 	width: 940px;
-	height: 1200px;
+	height: 100%;
 	background-color: #fff;
 	margin-top: 20px;
 }
@@ -190,6 +200,7 @@ body{
 h1{
 	text-align: center;
 	padding: 40px;
+	margin: 0;
 }
 
 p{
@@ -198,9 +209,54 @@ p{
 
 }
 
+.cuisiner {
+	display: inline-block;
+}
+
+.cuisiner .circular-image {
+	margin: 10px 10px 10px 20px;
+}
+
+.cuisiner .cuisiner-name{
+	display: inline-block;
+}
+
+.cuisiner p{
+	margin-top: 30px;
+	font-size: 16px;
+	margin-right: 40px;
+
+}
+
+.detail .home-feast-front-brief .home-feast-front-timeprice{
+	font-size: 16px;
+	color: #212121;
+	font-weight: bold;
+	float: left;
+	display: block;
+
+}
+
+
+
+
+button{
+	width: 160px;
+	height: 50px;
+	background-color: #883a36;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 3px;
+	border-style: none;
+	position: absolute;
+	right: 20px;
+	top: 12px;
+}
+
 .detail-title{
 	position: relative;
 	height: 40px;
+	margin-bottom: 16px;
 
 }
 
@@ -214,6 +270,8 @@ p{
 	text-align: center;
 	display: block;
 	top: 14px;
+	font-size: 18px;
+	font-weight: bold;
 }
 
 .divider{
@@ -226,13 +284,60 @@ p{
 	
 }
 
+.guest-list{
+	margin-bottom: 40px;
+}
+
+.guest-list .home-feast-front-reserman {
+	margin: 0 50px;
+}
+
+.guest-list .home-feast-front-reserman .avatar{
+	width: 50px;
+	height: 50px;
+	border-radius: 3px;
+	margin-right: 20px;
+}
+
+/* .guest-list .home-feast-front-reserman .aligncenter {
+ 	clear: both;
+ 	display: block;
+ 	margin:auto;
+ 	display: inline;
+}
+*/
+
+.home-feast-detail-host{
+	margin-bottom: 40px;
+}
+
 .home-feast-detail-host p{
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 2;
 	width: 600px;
 	text-align: center;
 	margin: auto;
 
+}
+
+.home-feast-detail-menu{
+	margin-bottom: 40px;
+}
+
+.home-feast-detail-menu-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.home-feast-detail-menu-item {
+  margin-bottom: 18px;
+ }
+
+.reserve-host-tip{
+	text-align: center;
+	margin-bottom: 40px;
 }
 
 
