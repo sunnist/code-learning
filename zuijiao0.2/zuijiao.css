@@ -174,24 +174,39 @@ body{
 
 /*详细页面 css*/
 
-.cuisine{
-	margin:0 30px;
-}
 
 .slick-slide{
-	width: 940px;
+	width: 1000px;
 	height: 580px;
+	position: relative;
+}
+
+.slick-slide .imgnub{
+	margin: auto;
+	position: absolute;
+	bottom: 20px;
+	background-color: #fff;
+	width:60px;
+	height: 26px;
+	opacity: 0.6;
+	border-radius: 50px;
+	text-align: center;
+	margin-left: 460px;
+}
+
+.imgnub p{
+	margin: 4px;
 }
 
 .feast-reservation{
-	width: 940px;
+	width: 1000px;
 	height:74px;
 	background-color: #fff;
 	position: relative;
 }
 
 .home-feast-detail {
-	width: 940px;
+	width: 1000px;
 	height: 100%;
 	background-color: #fff;
 	margin-top: 20px;
@@ -211,6 +226,7 @@ p{
 
 .cuisiner {
 	display: inline-block;
+	float: left;
 }
 
 .cuisiner .circular-image {
@@ -228,12 +244,26 @@ p{
 
 }
 
-.detail .home-feast-front-brief .home-feast-front-timeprice{
+.detail.home-feast-front-brief{
+	float: left;
+	margin-top: 10px;
+}
+
+.detail.home-feast-front-brief .home-feast-front-timeprice{
 	font-size: 16px;
 	color: #212121;
 	font-weight: bold;
-	float: left;
 	display: block;
+	float: none;
+
+}
+
+.detail.home-feast-front-brief .home-feast-front-feastLocation{
+	font-size: 16px;
+	color: #212121;
+	font-weight: bold;
+	display: block;
+	float: none;
 
 }
 
@@ -263,7 +293,7 @@ button{
 .title-name{
 	position: absolute;
 	line-height: 14px;
-	right: 390px;
+	right: 420px;
 	width: 160px;
 	background-color: #fff;
 	z-index: 10;
@@ -277,7 +307,7 @@ button{
 .divider{
 	position: absolute;
 	top: 20px;
-	width: 840px;
+	width: 900px;
 	border-top: 1px solid rgba(0,0,0,.1);
 	margin-right: 50px;
 	margin-left: 50px;
