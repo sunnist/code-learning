@@ -1,5 +1,14 @@
 code-learning
 =============
+# 2015-06-04 10:30pm
+
+更新[家庭料理详细页面](http://sunnist.github.io/code-learning/zuijiao0.2/feast-detail.html)
+
+预订栏固定的效果没做、轮播的效果没做，因为不会 JS。。。
+
+感觉 css 写得非常乱，只能勉强看了。。。
+
+
 #2015-06-03 11:25pm
 
 更新[首页 UI](http://sunnist.github.io/code-learning/zuijiao0.2/index.html)
