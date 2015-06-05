@@ -92,14 +92,14 @@ body{
 .home-feast-front-timeprice{
 	margin: 0px;
 	font-size: 14px;
-	color: #883a36;
+	color: #a03845;
 	float: left;
 
 }
 
 .home-feast-front-feastLocation{
 	font-size: 14px;
-	color: #883a36;
+	color: #a03845;
 	margin:0;
 	float: right;
 
@@ -163,11 +163,11 @@ body{
 
 .btn{
 	height: 50px;
-  	border: 1px #883a36 solid;
+  	border: 1px #a03845 solid;
   	line-height: 50px;
   	display: block;
  	background: #fafafa;
- 	color: #883a36;
+ 	color: #a03845;
  	text-align: center;
 }
 
@@ -273,7 +273,7 @@ p{
 button{
 	width: 160px;
 	height: 50px;
-	background-color: #883a36;
+	background-color: #a03845;
 	color: #fff;
 	font-size: 16px;
 	border-radius: 3px;
