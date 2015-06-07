@@ -385,7 +385,7 @@ p{
 	color: #a03845;
 }
 
-.order-info{
+.order-information{
 	width: 600px;
 	height: 600px;
 	margin: auto;
@@ -403,6 +403,81 @@ p{
 	border-radius: 3px;
 	border-style: none;
 	margin: 40px auto;
+}
+
+.order-info{
+	display: block;
+	width: 520px;
+	margin: auto;
+	padding-top: 50px;
+}
+
+.order-info dl{
+	margin-top: 0;
+  	margin-bottom: 10px;
+  	font-size: 16px;
+
+}
+
+.order-info dt{
+	float: left;
+	width: 50px;
+}
+
+.order-info dd {
+  margin-bottom: 5px;
+  margin-left: 5em;
+  }
+
+
+.order-info .divider{
+	margin-top: 500px;
+	width: 520px;
+
+}
+
+
+/*订单状态页面 css */
+.ordercheck-info{
+	width: 1000px;
+	height: 500px;
+	background-color: #fff;
+}
+
+
+.QRcode{
+	display: inline-block;
+	width: 450px;
+	margin-left: 50px;
+	margin-top: 50px;
+	float: left;
+	padding-top: 10px;
+	text-align: center;
+	border-right: solid 1px #e0e0e0;
+	font-size: 16px;
+	color: #a03845;
+}
+
+.order-check-info{
+	display: inline-block;
+	width: 400px;
+	margin-right: 50px;
+	margin-top: 50px;
+	float: right;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 16px;
+	color: #a03845;
+}
+
+.order-check-info button{
+	width: 300px;
+	height: 60px;
+	border-radius: 3px;
+	border: solid 1px #212121;
+	background-color: #fff;
+	font-size: 16px;
+	color: #212121;
 }
 
 
