@@ -1,5 +1,12 @@
 code-learning
 =============
+# 2015-06-07 10:30pm
+
+更新[订单确认](http://sunnist.github.io/code-learning/zuijiao0.2/orderconfirm.html)，不过这方面交互效果很多，就没写啥了
+
+更新[订单反馈](http://sunnist.github.io/code-learning/zuijiao0.2/ordercheck.html)，这个只是成功的，失败的还没有下
+
+
 # 2015-06-04 10:30pm
 
 更新[家庭料理详细页面](http://sunnist.github.io/code-learning/zuijiao0.2/feast-detail.html)
