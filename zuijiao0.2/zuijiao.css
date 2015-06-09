@@ -323,8 +323,9 @@ p{
 }
 
 .guest-list .home-feast-front-reserman {
-	margin: 0 50px;
+	margin: 0 150px;
 	text-align: center;
+	display: inline-block;
 }
 
 .guest-list .home-feast-front-reserman .avatar{
