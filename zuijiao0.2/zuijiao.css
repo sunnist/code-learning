@@ -137,10 +137,14 @@ body{
 	margin: 0 20px;
 }
 
+.home-feast-front-reserman img {
+	float: left;
+}
+
 .home-feast-front-reserman .avatar{
 	width: 20px;
 	height: 20px;
-	margin-right: 10px;
+	margin-right: 20px;
 }
 
 .forward{
