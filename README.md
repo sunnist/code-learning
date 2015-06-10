@@ -1,5 +1,10 @@
 code-learning
 =============
+# 2015-06-10 12:58pm
+
+更新[邮件通知](http://sunnist.github.io/code-learning/zuijiao0.2/email.html)，具体邮件模板是有特定结构的，这里只是展示一下，仿照 airbnb 的通知，比较简单
+
+
 # 2015-06-07 10:30pm
 
 更新[订单确认](http://sunnist.github.io/code-learning/zuijiao0.2/orderconfirm.html)，不过这方面交互效果很多，就没写啥了
