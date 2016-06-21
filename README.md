@@ -1,8 +1,8 @@
 code-learning
 =============
 #2016-06-21 17:20pm 
-更新[简历](http://sunnist.github.io/code-learning/code-learning/wanyan-resume/wanyan-resume.html)
-用了sofish 的[ypo.css](https://github.com/sofish/Typo.css)，感觉好多不太懂，还需要再学习
+更新[简历](http://sunnist.github.io/code-learning/code-learning/wanyan-resume/wanyan-resume.html)，准备找找新工作环境
+用了sofish 的[ typo.css](https://github.com/sofish/Typo.css)，感觉好多不太懂，还需要再学习
 
 
 # 2015-06-10 12:58pm
