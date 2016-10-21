@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>理想国原型说明文档</title>
+	<link rel="stylesheet" type="text/css" href="lixiangguo.css">
+	<link rel="stylesheet" type="text/css" href="typo.css">
+	<style>
+    	html{ background:#eee; }
+    	body{ width:90%; max-width: 960px; background:#fff; margin:3em auto 0; padding-top:.6em;padding-bottom:.6em;border:1px solid #ddd;border-width:0 1px;}
+    	#tagline{ color:#313131; font-size:1.5em; margin:-0.6em 0 0.6em; padding-bottom:0.6em; border-bottom:3px double #eee; }
+
+   		 @media only screen and (max-width: 640px) {
+      		table{ word-break:break-all;word-wrap:break-word;font-size:12px; }
+      		.typo table th, .typo table td, .typo-table th, .typo-table td .typo table caption {
+        	padding: 0.5em;
+     	 	}
+    	}
+
+  		</style>
+</head>
+<body>
+	<div class="container">
+		<h3>1.0 首页→产品列表</h3>
+
+<ul><li><p>首页</p></li><li><p>所有分类页面</p></li><li><p>所有国家页面</p></li><li><p>游记（评论）详细页面：点赞、回复功能</p></li><li><p>产品列表页面</p></li></ul>
+
+<h3>1.01 产品列表→产品详细</h3>
+
+<ul><li><p>产品详细页面：多种产品类型、分享功能</p></li><li><p>评论列表页面</p></li><li><p>评论详细页面</p></li></ul>
+
+<h3>2.0编辑模板/行程单</h3>
+
+<ul><li><p>行程模板页面：从产品详细进入、从行程单列表进入</p></li><li><p>模板第一次添加产品功能：需要弹窗咨询</p></li><li><p>模板/行程单删除功能：删除模板中产品交互、删除行程单中产品交互</p></li><li><p>模板/行程单修改时间</p></li></ul>
+
+<h3>2.01 模板/行程中添加酒店、用车、人员（导游/摄影/翻译）</h3>
+
+<ul><li><p>添加酒店产品功能：标记入住离开的时间</p></li><li><p>添加用车、人员（导游/摄影/翻译）功能：多种计费方式交互</p></li><li><p>添加购物项目</p></li></ul>
+
+<h3>日历组件说明</h3>
+
+<ul><li><p>组件初始状态：「日历+数量」、「日历+计价方式+数量」、「日历+使用时间+数量」、button 禁止</p></li><li><p>日历视图交互：选择单个日期、选择多个日期</p></li><li><p>计数器交互</p></li><li><p>计价方式选择功能：多种计费方式展示、选择时间交互</p></li><li><p>使用时间选择</p></li><li><p>组件激活状态：所需数据均填充好后，激活 button</p></li></ul>
+
+<h3>2.1订单已存在-编辑行程单</h3>
+
+<ul><li><p>行程单已被支付：</p><pre><code>不可以删除已购产品
+
+不可以修改时间
+
+只增加产品</code></pre></li><li><p>行程单中存在退单：</p><pre><code>不可以删除已购产品
+
+不可以修改已购产品的时间
+
+可以修改已退单的产品的时间
+
+可以删除已退单产品
+
+可以增加产品</code></pre></li><li><p>行程单中存在待支付：</p><pre><code>不可以删除待付款产品
+
+不可以修改时间
+
+不可以新增任何产品</code></pre></li></ul>
+
+<h3>3.0 模板/行程单特殊状态</h3>
+
+<ul><li><p>无订单的行程单/模板：</p><pre><code>存在自由时间
+
+存在未安排的天
+
+error 提示，不能购买的
+
+warning 提示，可以购买的
+
+包含增值服务
+
+存在跨天项目
+
+1天多个城市</code></pre></li><li><p>订单已支付的行程单：不能修改/删除 已支付的产品</p></li><li><p>有已退单的行程单：能修改/删除 已退单的产品</p></li><li><p>订单待支付的行程单：不能修改/删除 待支付的产品</p></li></ul>
+
+<h3>4.0费用清单（9月22日更新）</h3>
+
+<ul><li><p>费用清单列表信息/顺序说明</p></li><li><p>费用清单特殊状态</p><pre><code>没订单的特殊情况：error 提示，不能购买的 | warning 提示，可以购买的
+
+有订单的特殊情况：待支付、已支付、退单、新加产品</code></pre></li><li><p>费用清单的详细页面状态</p></li><li><p>申请退单</p></li></ul>
+
+<h3>5.0 预订人、联系人信息</h3>
+
+<ul><li><p>添加证件信息</p></li><li><p>添加联系人信息</p></li><li><p>核对证件信息</p></li></ul>
+
+<h3>6.0支付流程</h3>
+
+<ul><li><p>从模板入口下单支付</p></li><li><p>从行程单入口下单支付</p></li><li><p>待支付费用清单→立即支付</p></li></ul>
+
+<h3>7.0 产品加入行程单</h3>
+
+<ul><li><p>产品列表直接添加到行程单中：没有可选的行程单 | 有可以选的行程单</p></li><li><p>产品详细添加到行程单中</p></li></ul>
+
+<h3>8.0行程单列表</h3>
+
+<ul><li><p>行程单列表状态显示</p></li><li><p>行程单列表删除操作</p></li></ul>
+
+<h3>登录注册</h3>
+
+<ul><li><p>登录注册交互</p></li><li><p>登录注册触发点</p></li></ul>
+
+<h3>个人中心</h3>
+
+<ul><li><p>评价功能</p><pre><code>旅行产品评价功能
+
+行程评价功能
+
+评价信息填写页面
+
+已评价的列表页面、详细页面
+
+评价的回复功能</code></pre></li><li><p>订单</p><pre><code>订单列表
+
+订单详细：子订单、父订单
+
+退单功能</code></pre></li><li><p>联系平台客服功能</p></li><li><p>修改个人资料功能</p></li></ul>
+
+<h3>客服模块</h3>
+
+<ul><li><p>客服的触发点</p></li><li><p>客服对话</p></li></ul>
+
+<h3>空白页面说明</h3>
+
+<ul><li><p>存在空白状态提示的页面</p><pre><code>消息中心
+
+行程单
+
+个人中心-评价列表、订单列表</code></pre></li><li><p>存在网络异常空白状态提示的页面（带有刷新button）</p><pre><code>首页
+
+消息中心
+
+行程单
+
+人中心-评价列表、订单列表</code></pre></li></ul>
+
+<h3>用户引导触发点</h3>
+
+<ul><li><p>产品列表</p></li><li><p>产品详细</p></li><li><p>模板功能	</p></li></ul>
+
+<h3>消息中心</h3>
+
+<ul><li><p>消息列表展示</p></li><li><p>消息交互</p></li></ul>
+	
+	</div>
+
+</body>
+</html>
